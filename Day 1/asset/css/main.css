@@ -1,0 +1,129 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html{
+    font-size: 62.5%;
+    font-family: Arial, Helvetica, sans-serif;
+    transition: all linear 0.5s;
+}
+
+#main{
+    width: 100%;
+    height: 100vh;
+    background-image: linear-gradient(to right, #4daf54, #3d8880);
+    display: flex;
+}
+.card{
+    background-color: #272d40;    
+    margin: auto;
+    width: 320px;
+    height: 400px;
+    color: white;
+    border-radius: 10px;
+}
+.card .card-section{
+    margin: 15px;
+    font-size: 1.5rem;
+}
+.card .card-section .header__card{
+    display: flex;
+    justify-content: space-between;
+    font-size: 2rem;
+}
+.card .card-section .card__img{
+    transition: all linear 0.3s;
+
+}
+.card .card-section .card__img img{
+    width: 100%;
+    padding-right: 30px;
+}
+.card__name{
+    text-align: center;
+}
+.card__name .card__title{
+    color: #4daf54;
+    font-size: 2.5rem;
+    font-weight: 600;
+    transition: all linear 0.3s;
+}
+.card__name .card__price{
+    font-size: 2.5rem;
+    font-weight: 600;
+    transition: all linear 0.3s;
+}
+.card__infor{
+    margin-top: 15px;
+    transform: translate(0,100%);
+    opacity: 0;
+    transition: all linear 0.3s;
+}
+.card__size{
+    display: flex;
+    list-style-type: none;
+    font-size: 1.6rem;
+}
+.card__size li{
+    padding: 5px;
+}
+.card__size .size{
+    background-color: #ccc;
+    margin: 0 5px;
+    color: #333;
+    border-radius: 4px;
+    padding: 5px 8px;
+}
+.card__infor .card__color{
+    display: flex;
+    list-style-type: none;
+    font-size: 1.6rem;
+    align-items: center;
+    margin: 5px 0;
+}
+.card__infor .card__color li{
+    padding: 5px;
+}
+.card__infor .card__color .color{
+    border-radius: 50%;
+    margin: 0 5px;
+    width: 20px;
+    height: 20px;
+}
+.card__infor .card__color .color.red{
+    background-color: red;
+}
+.card__infor .card__color .color.green{
+    background-color: green;
+}
+.card__infor .card__color .color.black{
+    background-color: black;
+}
+.card__buy{
+    font-size: 1.4rem;
+    display: flex;
+}
+.btn{
+    background-color: #4daf54;
+    padding: 10px 20px;
+    margin-right: 10px;
+    border-radius: 5px;
+    transition: all linear 0.2s;
+}
+.btn:hover{
+    transform: scale(0.95);
+}
+.card:hover .card__img{
+    transform: translateY(-70px) rotate(-20deg);
+}
+.card:hover .card__name .card__price{
+    transform: translate(-120px, -70px);
+}
+.card:hover .card__name .card__title{
+    transform: translate(-40px, -70px);
+}
+.card:hover .card__infor{
+    transform: translate(0,-30px);
+    opacity: 1;
+}
