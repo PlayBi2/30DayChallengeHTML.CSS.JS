@@ -1,0 +1,82 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html{
+    font-size: 62.5%;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+body{
+    display: flex;
+    height: 100vh;
+    background-color: #8cc84c;
+}
+#main{
+    margin: auto;
+    color: #fff;
+    font-size: 2.4rem;  
+}
+#search-tag{
+    background-color: white;
+    width: 500px;
+    border-radius: 10px;
+}
+.section{
+    padding: 20px;
+}
+.section .title{
+    color: #333;
+    font-size: 2.8rem;
+    font-weight: 700;
+}
+.section .content{
+    margin: 20px 0;
+    border: 1px solid rgba(0,0,0,0.5);
+    border-radius: 5px;
+    padding: 10px;
+    display: flex;
+    flex-wrap: wrap;
+}
+.section .content .list-search{
+    display: flex;
+    list-style-type: none;
+    font-size: 1.8rem;
+    flex-wrap: wrap;
+    list-style-type: none;
+}
+.content .list-search .search-item{
+    background-color: #8cc84c;
+    margin-right: 10px;
+    padding: 10px;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+.content .list-search .search-item i{
+    display: block;
+    margin-left: 15px;
+    cursor: pointer;
+}
+.content .search-box{
+    font-size: 1.8rem;
+    display: block;
+    width: 100%;
+    border: none;
+    outline: none;
+    padding: 10px 0;
+}
+.button .remove-btn{
+    background-color: #8cc84c;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-size: 1.8rem;
+    cursor: pointer;
+}
+.hide{
+    display: none !important;
+}
