@@ -1,0 +1,116 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 62.5%;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    display: flex;
+    height: 100vh;
+    background-color: #f4f4f4;
+    position: relative;
+}
+
+#main {
+    margin: auto;
+    display: flex;
+    position: relative;
+}
+
+.toast {
+    margin: 0 20px;
+    padding: 15px 30px;
+    font-size: 2rem;
+    color: #fff;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.success {
+    background-color: #00c800;
+}
+
+.warning {
+    background-color: #ffac00;
+}
+
+.error {
+    background-color: #ff3c00;
+}
+
+.toast-noti {
+    position: absolute;
+    right: 10px;
+    top: 0;
+    display: none;
+}
+
+.noti-item {
+    padding: 20px 10px;
+    margin: 10px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 1.6rem;
+    color: white;
+    transition: all linear 0.5s;
+}
+
+.noti-item i {
+    margin-right: 20px;
+    font-size: 2rem;
+}
+
+.notifi-success {
+    background-color: #fff;
+    color: #333;
+    box-shadow: 0 0 2px rgba(0, 0, 0, 0.5);
+    border-left: 5px solid green;
+}
+
+.notifi-success i {
+    color: rgb(0, 200, 0);
+}
+
+.notifi-warning {
+    background-color: #fff;
+    color: #333;
+    box-shadow: 0 0 2px rgba(0, 0, 0, 0.5);
+    border-left: 5px solid orange;
+}
+
+.notifi-warning i {
+    color: rgb(255, 210, 0);
+}
+
+.notifi-error {
+    background-color: #fff;
+    color: #333;
+    box-shadow: 0 0 2px rgba(0, 0, 0, 0.5);
+    border-left: 5px solid red;
+}
+
+.notifi-error i {
+    color: rgb(255, 60, 0);
+}
+
+@keyframes FadeOut {
+    from {
+        transform: translateX(105%);
+        opacity: 0;
+    }
+    to {
+        transform: translateX(0);
+        opacity: 1;
+    }
+}
+@keyframes FadeOut2 {
+    to{
+        opacity: 0;
+    }
+}
