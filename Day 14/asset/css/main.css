@@ -1,0 +1,57 @@
+body{
+    min-height: 100vh;
+    background-color: #dadada;
+    display: flex;
+}
+#main{
+    margin: auto;
+}
+.screen{
+    height: 500px;
+    width: 1050px;
+    overflow: hidden;
+    border-radius: 5px;
+    position: relative;
+}
+.screen i{
+    position: absolute;
+    display: block;
+    color: #f3f3f3;
+}
+.left-icon{
+    top: 50%;
+    left: 10px;
+    font-size: 5rem;
+    transform: translateY(-50%);
+    cursor: pointer;
+}
+.right-icon{
+    top: 50%;
+    right: 10px;
+    font-size: 5rem;
+    transform: translateY(-50%);
+    cursor: pointer;
+}
+img{
+    width: 100%;
+    height: 100%;
+    display: block;
+    object-fit: cover;
+    object-position: center;
+}
+.slide{
+    display: flex;
+}
+
+.item{
+    width: calc(1050px/9);
+    height: 100px;
+    overflow: hidden;
+    cursor: pointer;
+}
+.item:first-child{
+    background: rgb(220, 86, 86);
+}
+.item img{
+    padding: 3px;
+}
