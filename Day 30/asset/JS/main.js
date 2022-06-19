@@ -35,4 +35,6 @@ main.addEventListener('mousemove',function(e){
     const x = e.pageX - main.offsetLeft; // lấy ra độ dài từ mép ngoài đối tượng main đến vị trí mousemove
     const walk = (x-startX); // lấy ra độ dài cần scroll
     main.scrollLeft = scrollLeft - walk;
+    // console.log(main.offsetLeft)
+    console.log(main.offsetLeft)
 })

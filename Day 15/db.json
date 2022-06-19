@@ -1,0 +1,110 @@
+{
+    "products": [
+        {
+            "ImgSrc" : "./asset/img/51eg55uWmdL._AC_UX679_.jpg",
+            "ImgName" : "Fjallraven - Foldsack No. 1 Ba",
+            "ImgPrice" : "$109.95"
+        },
+        {
+            "ImgSrc" : "./asset/img/51UDEzMJVpL._AC_UL640_QL65_ML3_.jpg",
+            "ImgName" : "Mens Casual Premium Slim Fit T",
+            "ImgPrice" : "$22.3"
+        },
+        {
+            "ImgSrc" : "./asset/img/51Y5NI-I5jL._AC_UX679_.jpg",
+            "ImgName" : "Mens Cotton Jacket",
+            "ImgPrice" : "$55.99"
+        },
+        {
+            "ImgSrc" : "./asset/img/51eg55uWmdL._AC_UX679_.jpg",
+            "ImgName" : "Mens Casual Slim Fit",
+            "ImgPrice" : "$15.99"
+        },
+        {
+            "ImgSrc" : "./asset/img/51eg55uWmdL._AC_UX679_.jpg",
+            "ImgName" : "John Hardy Women's Legends Nag",
+            "ImgPrice" : "$695"
+        },
+        {
+            "ImgSrc" : "./asset/img/51eg55uWmdL._AC_UX679_.jpg",
+            "ImgName" : "Solid Gold Petite Micropave ",
+            "ImgPrice" : "$168"
+        },
+        {
+            "ImgSrc" : "./asset/img/51eg55uWmdL._AC_UX679_.jpg",
+            "ImgName" : "Solid Gold Petite Micropave ",
+            "ImgPrice" : "$9.99"
+        },
+        {
+            "ImgSrc" : "./asset/img/61sbMiUnoGL._AC_UL640_QL65_ML3_.jpg",
+            "ImgName" : "Pierced Owl Rose Gold Plated S ",
+            "ImgPrice" : "$10.99"
+        },
+        {
+            "ImgSrc" : "./asset/img/61U7T1koQqL._AC_SX679_.jpg",
+            "ImgName" : "WD 2TB Elements Portable Exter ",
+            "ImgPrice" : "$64"
+        },
+        {
+            "ImgSrc" : "./asset/img/71-3HjGNDUL._AC_SY879._SX._UX._SY._UY_.jpg",
+            "ImgName" : "SanDisk SSD PLUS 1TB Internal ",
+            "ImgPrice" : "$109"
+        },
+        {
+            "ImgSrc" : "./asset/img/71HblAHs5xL._AC_UY879_-2.jpg",
+            "ImgName" : "WD 4TB Gaming Drive Works with",
+            "ImgPrice" : " $114"
+        },
+        {
+            "ImgSrc" : "./asset/img/71kWymZ+c+L._AC_SX679_.jpg",
+            "ImgName" : " Acer SB220Q bi 21.5 inches Ful",
+            "ImgPrice" : "$599 "
+        },
+        {
+            "ImgSrc" : "./asset/img/71li-ujtlUL._AC_UX679_.jpg",
+            "ImgName" : "Samsung 49-Inch CHG90 144Hz Cu ",
+            "ImgPrice" : "$999.99 "
+        },
+        {
+            "ImgSrc" : "./asset/img/71pWzhdJNwL._AC_UL640_QL65_ML3_.jpg",
+            "ImgName" : "BIYLACLESEN Women's 3-in-1 Sno ",
+            "ImgPrice" : "$56.99 "
+        },
+        {
+            "ImgSrc" : "./asset/img/71YAIFU48IL._AC_UL640_QL65_ML3_.jpg",
+            "ImgName" : "Lock and Love Women's Removabl ",
+            "ImgPrice" : "$29.95 "
+        },
+        {
+            "ImgSrc" : "./asset/img/71YXzeOuslL._AC_UY879_.jpg",
+            "ImgName" : "Rain Jacket Women Windbreaker ",
+            "ImgPrice" : " $39.99"
+        },
+        {
+            "ImgSrc" : "./asset/img/71z3kpMAYsL._AC_UY879_.jpg",
+            "ImgName" : "MBJ Women's Solid Short Sleeve ",
+            "ImgPrice" : "$9.85 "
+        },
+        {
+            "ImgSrc" : "./asset/img/81fPKd-2AYL._AC_SL1500_.jpg",
+            "ImgName" : " Opna Women's Short Sleeve Mois",
+            "ImgPrice" : " $7.95"
+        },
+        {
+            "ImgSrc" : "./asset/img/81QpkIctqPL._AC_SX679_.jpg",
+            "ImgName" : "DANVOUY Womens T Shirt Casual  ",
+            "ImgPrice" : "$12.99 "
+        },
+        {
+            "ImgSrc" : "./asset/img/81XH0e8fefL._AC_UY879_.jpg",
+            "ImgName" : " White Gold Plated Princess",
+            "ImgPrice" : "$9.99 "
+        },
+        {
+            "ImgSrc" : "./asset/img/81Zt42ioCgL._AC_SX679_.jpg",
+            "ImgName" : " Silicon Power 256GB SSD 3D NAN",
+            "ImgPrice" : "$109 "
+        }
+
+    ]
+}

@@ -1,0 +1,118 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    transition: all ease-in-out 1s;
+}
+html{
+    font-size: 62.5%;
+    font-family: 'Roboto', sans-serif;
+}
+
+
+/* header css */
+.header{
+    background: linear-gradient(to right, #4daf54, #3d8880);
+    height: 100vh;
+    display: flex;
+    color: #fff;
+}  
+.header-section{
+    margin: auto 0;
+    margin-left: 100px;
+}
+.header__title{
+    font-size: 5rem;
+    font-weight: 600;
+}
+.header__slogan{
+    font-size: 2rem;
+    width: 700px;
+    margin-top: 10px;
+}
+
+/* content css */
+.content{
+    height: 100vh;
+    background-color: #fff;
+    display: flex;
+}
+.content-section{
+    margin: auto;
+    display: flex;
+}
+.item{
+    background-color: #333;
+    flex: 0 0 500px;
+    margin: 0 10px;
+    color: #fff;
+    padding: 15px;
+    transform: translateX(50%);
+    border-radius: 5px;
+}
+.item__title{
+    font-size: 2.5rem;
+    font-weight: 600;
+    letter-spacing: 2px;
+}
+.item__slogan{
+    font-size: 1.5rem;
+    text-align: justify;
+    margin-top: 10px;
+}
+.content .item{
+    transition: 0.8s;
+}
+
+
+/* footer css */
+.footer{
+    background: linear-gradient(180deg, #017c2c 50%, #fff 50%);
+    height: 100vh;
+    display: flex;
+}
+.footer-section{
+    margin: auto;
+    display: flex;
+    justify-content: center;
+}
+.person{
+    flex: 0 0 200px;
+    background-color: white;
+    box-shadow: 0 0 5px rgba(0,0,0,0.5);
+    margin: 0 10px;
+    padding: 15px;
+    border-radius: 5px;
+    transform-origin: 50% 50%;
+}
+.person__title{
+    font-size: 2.5rem;
+    color: #017c2c;
+    font-weight: 600;
+}
+.person__infor{
+    font-size: 1.6rem;
+    margin-top: 10px;
+}
+.left-to-right{
+    transform: translateX(-200%);
+}
+.right-to-left{
+    transform: translateX(200%);
+}
+.left-to-right.start{
+    transform: translateX(0);
+}
+
+.content .left-to-right.start{
+    transform: translateX(50%);
+}
+.content .right-to-left.start{
+    transform: translateX(50%);
+}
+.zoom{
+    transform: scale(0);
+}
+.zoom.start{
+    transform: scale(1);
+}
