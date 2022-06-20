@@ -1,28 +1,35 @@
-var CloseIcons = document.querySelectorAll('.search-item i');
-var SearchItems = document.querySelectorAll('.search-item');
-var RemoveBtn = document.querySelector('.button');
-var InputBox = document.querySelector('.search-box');
-var ListSearch = document.querySelector('.list-search');
-var Historys = ['ReacJs','NodeJs']
+var InputBlock = document.querySelector('.search-block input')
+var Historys = document.querySelector('.history')
+var RemoveAll = document.querySelector('.remove-btn button')
+var ListValue = ['ReacJs','NodeJs']
 
-InputBox.focus();
-CloseIcons.forEach(function(CloseIcon, index){
-    CloseIcon.addEventListener('click',function(e){
-        SearchItems[index].classList.add('hide');
-    })
-})
+InputBlock.focus() // Hàm input tự động được focus vào khi bắt đầu trình duyệt
 
-InputBox.addEventListener('keydown',function(e){
-    var html = InputBox.value;
-    if(e.keyCode == 13 && !Historys.includes(html)){
-        ListSearch.innerHTML += `<li class="search-item">
-                                    ${html}<i class="fa-solid fa-xmark"></i>
-                                </li>`;
-        Historys.push(html);
-        InputBox.value = '';
+
+
+InputBlock.addEventListener('keydown', function (e) {
+    if (e.which == 13) {
+        let x = InputBlock.value
+        let div = document.createElement('div')
+        div.setAttribute('class', 'history-item')
+
+        div.innerHTML = `${x}<i class="fa-solid fa-xmark"></i>`
+
+        // Historys.appendChild(div)
+        Historys.innerHTML += `<div class="history-item">
+        ${x}<i class="fa-solid fa-xmark"></i>
+    </div>`
+        InputBlock.value = ''
+        closeIcon = document.querySelectorAll('.history-item i')
+        closeIcon.forEach(function(icon){
+            icon.addEventListener('click',function(){
+                let divParent = icon.parentElement;
+                divParent.remove();
+            })
+        })
+        
     }
 })
-
-RemoveBtn.addEventListener('click',function(){
-    ListSearch.innerHTML = '';
+RemoveAll.addEventListener('click',function(){
+    Historys.innerHTML = ''
 })

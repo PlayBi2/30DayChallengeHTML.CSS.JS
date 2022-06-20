@@ -8,65 +8,66 @@ html{
     font-family: Arial, Helvetica, sans-serif;
 }
 body{
-    background-color: #17a2b8;
+    background-color: rgb(23, 162, 184);
+    min-height: 100vh;
     display: flex;
-    height: 100vh;
-    color: white;
 }
-#alert{
+.intro{
     margin: auto;
-    font-size: 3rem;
-    color: #17a2b8;
+}
+.intro-section{
+    font-size: 4rem;
     background-color: white;
-    padding: 20px 50px;
+    padding: 10px 25px;
     border-radius: 10px;
-    font-weight: 600;
+    color: rgb(23, 162, 184);
+    font-weight: 550;
 }
 #main{
     margin: auto;
-    width: 1200px;
+
 }
-#main .header{
+.title{
     width: 250px;
     height: 250px;
     border: 5px solid white;
     border-radius: 50%;
-    margin-bottom: 50px;
-    font-size: 6rem;
-    text-align: center;
     line-height: 250px;
-    margin-left: auto;
-    margin-right: auto;
+    text-align: center;
+    font-size:8rem;
+    color: white;
     font-weight: 700;
+    margin: 0 auto;
 }
-#main .member-properties{
-    font-size: 2rem;
-    list-style-type: none;
+.list-options{
     display: flex;
-    justify-content: space-between;
-    align-items: center;
+    justify-content: center;
+    margin-top: 100px;
 }
-#main .member-properties li{
-    width: 20%;
-    background-color: white;
-    height: 100px;
+.option{
+    width: 300px;
+    margin: 0 20px;
+    text-align: center;
     border-radius: 10px;
+    overflow: hidden;
 }
-#main .member-properties .member__title{
-    background-color: #78c0c9;
-    height: 45px;
-    border-top-right-radius: 10px;
-    border-top-left-radius: 10px;
-    text-align: center;
-    line-height: 45px;
+.option-title{
+    background-color: rgb(120, 192, 201);
+    color: #fff;
+    font-size: 2.5rem;
+    height: 40px;
+    line-height: 40px;
 }
-#main .member-properties .member__content{
-    color: #333;
-    font-size: 3rem;
-    line-height: 55px;
-    text-align: center;
+.option-value{
+    background-color: white;
+    height: 50px;
+    color:#000;
+    font-size: 2rem;
+    line-height: 50px;
 }
-
 .hide{
     display: none;
+}
+.unhide{
+    display: block;
 }

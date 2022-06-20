@@ -1,7 +1,7 @@
-var inputBlock = document.querySelector('.input__box');
-var SearchBtn = document.querySelector('.button__search');
+var searchIcon = document.querySelector('.block i')
+var inputBlock = document.querySelector('.input-block')
 
-SearchBtn.addEventListener('click',function(){
-    inputBlock.classList.toggle('show');
+searchIcon.addEventListener('click',function(){
+    inputBlock.classList.toggle('hide')
     inputBlock.focus();
 })
